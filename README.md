@@ -2,6 +2,7 @@
 
 # Python code examples
 
-Just a bunch of examples codes made by me.
+Just a bunch of very simple example codes made by me.
+Feel free to use them :)
 
 

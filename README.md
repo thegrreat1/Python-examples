@@ -2,7 +2,6 @@
 
 # Python code examples
 
-
-Just a bunch of examples codes for python.
+Just a bunch of examples codes made by me.
 
 

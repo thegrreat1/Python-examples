@@ -6,3 +6,6 @@ Just a bunch of very simple example codes made by me.
 Feel free to use them :)
 
 
+I will add more examples frequently as im learning python.
+
+

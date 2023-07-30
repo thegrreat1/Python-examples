@@ -21,6 +21,8 @@ try:
             print(link.get_attribute("href"))
         browser.close()
 except:
+    browser.close()
     print("Error: Could not connect to the website")
+    sys.exit(1)
 
 

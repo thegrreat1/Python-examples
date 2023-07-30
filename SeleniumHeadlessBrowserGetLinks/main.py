@@ -13,11 +13,14 @@ url = "https://edition.cnn.com/"
 options = Options()
 options.add_argument("-headless")
 
+try:
+    with webdriver.Firefox(options=options) as browser:
+        browser.get(url)
+        page_source = browser.find_elements(By.XPATH, "//a[@href]")
+        for link in page_source:
+            print(link.get_attribute("href"))
+        browser.close()
+except:
+    print("Error: Could not connect to the website")
 
-with webdriver.Firefox(options=options) as browser:
-    browser.get(url)
-    page_source = browser.find_elements(By.XPATH, "//a[@href]")
-    for link in page_source:
-        print(link.get_attribute("href"))
-    browser.close()
 

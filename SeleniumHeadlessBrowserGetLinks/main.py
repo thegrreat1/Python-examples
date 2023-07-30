@@ -1,5 +1,4 @@
 import sys
-import time
 
 try:
     from selenium import webdriver

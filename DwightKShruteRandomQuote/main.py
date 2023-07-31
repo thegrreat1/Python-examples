@@ -21,4 +21,4 @@ quote = ["Whenever I'm about to do something, I think, 'Would an idiot do that?'
          "I wish I could menstruate. If I could menstruate, I wouldn't have to deal with idiotic calendars anymore. I'd just be able to count down from my previous cycle. Plus, I'd be more in tune with the moon and the tides."
          ]
 
-print("Dwigkt K. Schrute Quote of the day:\n {}".format(random.choice(quote)))
+print("Dwight K. Schrute Quote of the day:\n {}".format(random.choice(quote)))

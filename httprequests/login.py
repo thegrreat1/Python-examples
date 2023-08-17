@@ -14,9 +14,9 @@ login_payload = {
 try:
     response = session.post(url, data=login_payload)
 
-    if response.text.find("login"):
+    if response.text.__contains__('login'):
         print("Invalid username and password!")
     else:
-        print("Logged in")
+        print("\nLogged in")
 except:
     print("Cant connect to the website")

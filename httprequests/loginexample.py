@@ -1,5 +1,7 @@
 import requests
 
+print("Username and password is admin\n")
+
 username = input("Please enter your username: ")
 password = input("Please enter your password: ")
 

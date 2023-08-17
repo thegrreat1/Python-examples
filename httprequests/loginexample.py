@@ -19,6 +19,6 @@ try:
     if response.text.__contains__('login'):
         print("Invalid username and password!")
     else:
-        print("\nLogged in")
+        print("\nSuccessfully logged in as: ", username)
 except:
     print("Cant connect to the website")
